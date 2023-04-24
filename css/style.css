@@ -1,0 +1,41 @@
+body {
+    background-color:white
+}
+
+#nav-bar {
+    background-color: #333; 
+    position: fixed; 
+    top: -50px; 
+    width: 100%; 
+    transition: top 0.3s;
+}
+
+.title {
+    margin-top: 400px;
+    color: black
+}
+
+.alert-to-scroll {
+    color: white;
+    font-family: Arial;
+    font-size: 150px;
+    font-size: 15pt;
+    animation: fadeIn 2s forwards;
+    animation-delay: 1s;
+
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0;
+    color: white; }
+    100% { opacity: 1;
+    color: black; }
+    
+  }
+
+.sub-page-2 {
+    width: 200px;
+    background-color: #333;
+    margin-top: 600px;
+}
