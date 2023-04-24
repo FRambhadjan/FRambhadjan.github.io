@@ -12,7 +12,8 @@ body {
 
 .title {
     margin-top: 400px;
-    color: black
+    color: black;
+    cursor: default;
 }
 
 .alert-to-scroll {
@@ -22,7 +23,7 @@ body {
     font-size: 15pt;
     animation: fadeIn 2s forwards;
     animation-delay: 1s;
-
+    cursor: default;
 }
 
 
