@@ -5,15 +5,14 @@ window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
   if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
     document.getElementById("nav-bar").style.top = "0";
-    let reveals = document.querySelector(".reveals")
-    reveals.classList.remove(".active")
-    
-    // document.getElementById("sub-title-PVA").style.color = "black";
+    document.getElementById("sub-title-PVA").style.color = "black";
+    document.getElementById("sub-title-PVA").style.top = "0px";
+    document.getElementById("sub-title-PVA").style.animation = "fadeIn 2s forwards";
   } else {
     document.getElementById("nav-bar").style.top = "-50px";
-    let reveals = document.querySelector(".reveals")
-    reveals.classList.add(".active")
-    // document.getElementById("sub-title-PVA").style.color = "white";
+    document.getElementById("sub-title-PVA").style.color = "white";
+    document.getElementById("sub-title-PVA").style.animation = "-50px";
+    document.getElementById("sub-title-PVA").style.animation = "fadeOut 2s forwards";
   }
 }
 
