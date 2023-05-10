@@ -22,7 +22,7 @@ body {
     font-size: 150px;
     font-size: 15pt;
     animation: fadeIn 2s forwards;
-    animation-delay: 1s;
+    animation-delay: 2s;
     cursor: default;
 }
 
@@ -37,6 +37,28 @@ body {
 
 .sub-page-2 {
     width: 200px;
-    background-color: #333;
-    margin-top: 600px;
+    /* margin-top: 600px; */
+    color: black;
+    cursor: default;
 }
+
+#sub-title-PVA {
+    color: white;
+    margin-top: 17px;
+    margin-bottom: 1700px;
+}
+
+.reveals{
+    color: black
+}
+
+.active{
+    animation: fadeIn2 2s forwards;
+  }
+
+  @keyframes fadeIn2 {
+    0% { opacity: 0;
+    color: white; }
+    100% { opacity: 1;
+    color: black; }
+  }
