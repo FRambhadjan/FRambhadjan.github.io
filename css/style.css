@@ -1,13 +1,59 @@
 body {
-    background-color:white
+    background-color: white
 }
 
 #nav-bar {
-    background-color: #333; 
-    position: fixed; 
-    top: -50px; 
-    width: 100%; 
+    background-color: #333;
+    position: fixed;
+    top: -50px;
+    width: 100%;
     transition: top 0.3s;
+    z-index: 2;
+}
+
+#nav-bar2 {
+    background-color: #333;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 2;
+    animation: fadeColor 0.5s forwards;
+
+}
+
+@keyframes fadeColor {
+    0% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 1;
+        background-color: white;
+    }
+}
+
+#navbar-PVA {
+    margin-top: 1200px;
+    margin-bottom: 110px;
+    color: transparent;
+}
+
+.profile-img-dark {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.profile-img-light {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 90%;
+    cursor: pointer;
 }
 
 .title {
@@ -26,31 +72,123 @@ body {
     cursor: default;
 }
 
-
-@keyframes fadeIn {
-    0% { opacity: 0;
-    color: white; }
-    100% { opacity: 1;
-    color: black; }
-    
-  }
-
 .sub-page-2 {
     margin-top: 300px;
     color: black;
     cursor: default;
 }
 
-#sub-title-PVA {
+.sub-title-content-container {
+    margin-bottom: 1000px;
     color: white;
-    margin-top: 17px;
-    margin-bottom: 1700px;
-    text-align: center;
 }
 
-  @keyframes fadeOut {
-    100% { opacity: 0;
-    color: white; }
-    0% { opacity: 1;
-    color: white; }
-  }
+#sub-title-PVA {
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#sub-title-content-animation-unit1 {
+    color: white;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit1b {
+    color: white;
+    margin-bottom: 100px;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit1b-href {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit2 {
+    color: white;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit2b {
+    color: white;
+    margin-bottom: 100px;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit2b-href {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit3 {
+    color: white;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit3b {
+    color: white;
+    margin-bottom: 100px;
+    cursor: default;
+}
+
+#sub-title-content-animation-unit3b-href {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.title-Missie {
+    margin-top: 100px;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        color: white;
+    }
+
+    100% {
+        opacity: 1;
+        color: black;
+    }
+}
+
+@keyframes fadeInHref {
+    0% {
+        opacity: 0;
+        color: white;
+    }
+
+    100% {
+        opacity: 1;
+        color: rgb(61, 61, 216);
+    }
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        color: white;
+    }
+
+    0% {
+        opacity: 1;
+        color: white;
+    }
+}
+
+@keyframes fadeOutHref {
+    100% {
+        opacity: 0;
+        color: white;
+    }
+
+    0% {
+        opacity: 1;
+        color: white;
+    }
+}
