@@ -1,5 +1,7 @@
+function toHome() {
+    setTimeout(() => {
+        window.location.href = "../index.html";
+      }, 300);
+}
 
-
-setTimeout((0.6)=> {
-    window.location.href = "../index.html";
- }
+toHome();
