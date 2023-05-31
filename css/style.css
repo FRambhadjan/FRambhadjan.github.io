@@ -6,6 +6,7 @@ a {
     text-decoration: none;
 }
 
+/* v dark animated navbar v */
 #nav-bar {
     background-color: #333;
     position: fixed;
@@ -14,14 +15,19 @@ a {
     transition: top 0.3s;
     z-index: 2;
 }
+/* ^ dark animated navbar ^ */
 
+
+/* v dark non-animated navbar v */
 #nav-bar2 {
     background-color: #333;
     width: 100%;
     transition: top 0.3s;
     z-index: 2;
 }
+/* ^ dark non-animated navbar ^ */
 
+/* v frame navbar v */
 #nav-bar3 {
     background-color: #333;
     width: 100%;
@@ -29,42 +35,22 @@ a {
     z-index: 2;
     animation: fadeColor 0.4s forwards;
 }
+/* ^ frame navbar ^ */
 
-@keyframes fadeColor {
-    0% {
-        opacity: 1;
-        color: black;
-    }
-
-    100% {
-        opacity: 1;
-        background-color: white;
-        color: transparent;
-    }
-}
 
 .fade-in {
     animation: fadeIn-Start 1s forwards;
 }
 
-@keyframes fadeIn-Start {
-    0% {
-        opacity: 0;
-        color: transparent;
-    }
-
-    100% {
-        opacity: 1;
-        color: black;
-    }
-}
-
+/* v id HREF v */
 #navbar-PVA {
     margin-top: 1200px;
     margin-bottom: 110px;
     color: transparent;
 }
+/* ^ id HREF ^ */
 
+/* v dark profile pictogram v */
 .profile-img-dark {
     height: 30px;
     width: 30px;
@@ -73,7 +59,9 @@ a {
     margin-left: 90%;
     cursor: pointer;
 }
+/* ^ dark profile pictogram ^ */
 
+/* v light profile pictogram v */
 .profile-img-light {
     height: 30px;
     width: 30px;
@@ -82,6 +70,7 @@ a {
     margin-left: 90%;
     cursor: pointer;
 }
+/* ^ light profile pictogram ^ */
 
 .title {
     margin-top: 400px;
@@ -98,6 +87,8 @@ a {
     animation-delay: 2s;
     cursor: default;
 }
+
+/* v sub page 2 v */
 
 .sub-page-2 {
     margin-top: 300px;
@@ -166,6 +157,9 @@ a {
     text-decoration: none;
     cursor: default;
 }
+/* ^ sub page 2 ^ */
+
+/* v missie page v */
 
 .title-Missie {
     margin-top: 100px;
@@ -174,7 +168,21 @@ a {
 .title-Missie-description {
     margin-bottom: 150px;
 }
+/* ^ missie page ^ */
 
+/* v keyframes v */
+
+@keyframes fadeIn-Start {
+    0% {
+        opacity: 0;
+        color: transparent;
+    }
+
+    100% {
+        opacity: 1;
+        color: black;
+    }
+}
 
 @keyframes fadeIn {
     0% {
@@ -223,3 +231,18 @@ a {
         color: white;
     }
 }
+
+@keyframes fadeColor {
+    0% {
+        opacity: 1;
+        color: black;
+    }
+
+    100% {
+        opacity: 1;
+        background-color: white;
+        color: transparent;
+    }
+}
+
+/* ^ keyframes ^ */
