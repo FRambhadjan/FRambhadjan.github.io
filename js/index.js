@@ -3,22 +3,22 @@
 const profileDark = document.querySelector(".profile-img-dark");
 const profileLight = document.querySelector(".profile-img-light");
 
-profileDark.addEventListener('click', function(){
+profileDark.addEventListener('click', function () {
   window.location.href = "../profiel.html";
 })
 
-profileLight.addEventListener('click', function(){
+profileLight.addEventListener('click', function () {
   window.location.href = "../profiel.html";
 })
 
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function () { scrollFunction(), scrollFunction2() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
     document.getElementById("nav-bar").style.top = "0";
     document.getElementById("sub-title-PVA").style.top = "0px";
     document.getElementById("sub-title-PVA").style.animation = "fadeIn 1.5s forwards";
-    
+
     document.getElementById("sub-title-content-animation-unit1").style.top = "0px";
     document.getElementById("sub-title-content-animation-unit1").style.animation = "fadeIn 2s forwards";
     document.getElementById("sub-title-content-animation-unit1").style.animationDelay = "0.5s";
@@ -52,8 +52,8 @@ function scrollFunction() {
     document.getElementById("sub-title-content-animation-unit3b-href").style.animation = "fadeInHref 2s forwards";
     document.getElementById("sub-title-content-animation-unit3b-href").style.animationDelay = "0.5s";
 
-    
-    
+
+
   } else {
     document.getElementById("nav-bar").style.top = "-50px";
     document.getElementById("sub-title-PVA").style.animation = "-50px";
@@ -85,6 +85,17 @@ function scrollFunction() {
 
     document.getElementById("sub-title-content-animation-unit3b-href").style.animation = "fadeOutHref 2s forwards";
     document.getElementById("sub-title-content-animation-unit3b-href").style.animationDelay = "0.5s";
+  }
+}
+
+function scrollFunction2() {
+  if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
+   
+
+console.log('2')
+
+  } else {
+  
   }
 }
 
