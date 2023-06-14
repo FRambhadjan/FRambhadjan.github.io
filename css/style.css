@@ -6,6 +6,8 @@ a {
     text-decoration: none;
 }
 
+
+
 /* v dark animated navbar v */
 #nav-bar {
     background-color: #333;
@@ -45,6 +47,11 @@ a {
 /* v id HREF v */
 #navbar-PVA {
     margin-top: 1200px;
+    margin-bottom: 110px;
+    color: transparent;
+}
+
+#navbar-project {
     margin-bottom: 110px;
     color: transparent;
 }
@@ -107,6 +114,12 @@ a {
     margin-bottom: 200px;
 }
 
+#sub-title-project {
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
 #sub-title-content-animation-unit1 {
     color: white;
     cursor: default;
@@ -158,6 +171,60 @@ a {
     cursor: default;
 }
 /* ^ sub page 2 ^ */
+
+/* v project page  v */
+#project-title-content-animation-unit1 {
+    color: white;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit1b {
+    color: white;
+    margin-bottom: 100px;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit1b-href {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit2 {
+    color: white;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit2b {
+    color: white;
+    margin-bottom: 100px;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit2b-href {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit3 {
+    color: white;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit3b {
+    color: white;
+    margin-bottom: 100px;
+    cursor: default;
+  }
+  
+  #project-title-content-animation-unit3b-href {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+  }
+  /* ^ project page ^ */
+
 
 /* v missie page v */
 
