@@ -89,13 +89,13 @@ function scrollFunction() {
 }
 
 function scrollFunction2() {
-  if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
-   
+  if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
 
-console.log('2')
+
+    console.log('2')
 
   } else {
-  
+
   }
 }
 
