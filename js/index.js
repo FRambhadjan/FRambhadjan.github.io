@@ -52,8 +52,6 @@ function scrollFunction() {
     document.getElementById("sub-title-content-animation-unit3b-href").style.animation = "fadeInHref 2s forwards";
     document.getElementById("sub-title-content-animation-unit3b-href").style.animationDelay = "0.5s";
 
-
-
   } else {
     document.getElementById("nav-bar").style.top = "-50px";
     document.getElementById("sub-title-PVA").style.animation = "-50px";
@@ -115,7 +113,7 @@ function scrollFunction2() {
     document.getElementById("project-title-content-animation-unit2b").style.animationDelay = "0.7s";
 
     document.getElementById("project-title-content-animation-unit2b-href").style.animation = "fadeInHref 2s forwards";
-    document.getElementById("project-title-content-animation-unit2b-href").style.animationDelay = "0.5s";
+    document.getElementById("project-title-content-animation-unit2b-href").style.animationDelay = "0.7s";
 
     document.getElementById("project-title-content-animation-unit3").style.top = "0px";
     document.getElementById("project-title-content-animation-unit3").style.animation = "fadeIn 2s forwards";
@@ -126,7 +124,40 @@ function scrollFunction2() {
     document.getElementById("project-title-content-animation-unit3b").style.animationDelay = "0.9s";
 
     document.getElementById("project-title-content-animation-unit3b-href").style.animation = "fadeInHref 2s forwards";
-    document.getElementById("project-title-content-animation-unit3b-href").style.animationDelay = "0.5s";
+    document.getElementById("project-title-content-animation-unit3b-href").style.animationDelay = "0.9s";
+
+    document.getElementById("project-title-content-animation-unit4").style.top = "0px";
+    document.getElementById("project-title-content-animation-unit4").style.animation = "fadeIn 2s forwards";
+    document.getElementById("project-title-content-animation-unit4").style.animationDelay = "1.1s";
+    
+    document.getElementById("project-title-content-animation-unit4b").style.top = "0px";
+    document.getElementById("project-title-content-animation-unit4b").style.animation = "fadeIn 2s forwards";
+    document.getElementById("project-title-content-animation-unit4b").style.animationDelay = "1.1s";
+
+    document.getElementById("project-title-content-animation-unit4b-href").style.animation = "fadeInHref 2s forwards";
+    document.getElementById("project-title-content-animation-unit4b-href").style.animationDelay = "1.1s";
+
+    document.getElementById("project-title-content-animation-unit5").style.top = "0px";
+    document.getElementById("project-title-content-animation-unit5").style.animation = "fadeIn 2s forwards";
+    document.getElementById("project-title-content-animation-unit5").style.animationDelay = "1.3s";
+    
+    document.getElementById("project-title-content-animation-unit5b").style.top = "0px";
+    document.getElementById("project-title-content-animation-unit5b").style.animation = "fadeIn 2s forwards";
+    document.getElementById("project-title-content-animation-unit5b").style.animationDelay = "1.3s";
+
+    document.getElementById("project-title-content-animation-unit5b-href").style.animation = "fadeInHref 2s forwards";
+    document.getElementById("project-title-content-animation-unit5b-href").style.animationDelay = "1.3s";
+
+    document.getElementById("project-title-content-animation-unit6").style.top = "0px";
+    document.getElementById("project-title-content-animation-unit6").style.animation = "fadeIn 2s forwards";
+    document.getElementById("project-title-content-animation-unit6").style.animationDelay = "1.5s";
+    
+    document.getElementById("project-title-content-animation-unit6b").style.top = "0px";
+    document.getElementById("project-title-content-animation-unit6b").style.animation = "fadeIn 2s forwards";
+    document.getElementById("project-title-content-animation-unit6b").style.animationDelay = "1.5s";
+
+    document.getElementById("project-title-content-animation-unit6b-href").style.animation = "fadeInHref 2s forwards";
+    document.getElementById("project-title-content-animation-unit6b-href").style.animationDelay = "1.5s";
 
     console.log('2')
 
@@ -161,6 +192,33 @@ function scrollFunction2() {
 
     document.getElementById("project-title-content-animation-unit3b-href").style.animation = "fadeOutHref 2s forwards";
     document.getElementById("project-title-content-animation-unit3b-href").style.animationDelay = "0.5s";
+
+    document.getElementById("project-title-content-animation-unit4").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit4").style.animation = "fadeOut 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit4b").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit4b").style.animation = "fadeOut 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit4b-href").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit4b-href").style.animation = "fadeOutHref 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit5").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit5").style.animation = "fadeOut 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit5b").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit5b").style.animation = "fadeOut 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit5b-href").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit5b-href").style.animation = "fadeOutHref 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit6").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit6").style.animation = "fadeOut 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit6b").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit6b").style.animation = "fadeOut 2s forwards";
+
+    document.getElementById("project-title-content-animation-unit6b-href").style.animation = "-50px";
+    document.getElementById("project-title-content-animation-unit6b-href").style.animation = "fadeOutHref 2s forwards";
   }
 }
 
