@@ -1,5 +1,4 @@
 
-
 const profileDark = document.querySelector(".profile-img-dark");
 const profileLight = document.querySelector(".profile-img-light");
 
