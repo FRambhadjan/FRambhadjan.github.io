@@ -1,15 +1,19 @@
+/* hier wordt het achtergrond wit gemaakt */
 body {
-    background-color: white
+    background-color: white 
 }
 
-a {
+/* zorgt ervoor dat elke <a> geen decoratie heeft */
+a { 
     text-decoration: none;
 }
 
+/* hier krijgt de footer een kleur */
 footer {
     background-color: #333;
 }
 
+/* hier wordt afstand gezet tussen andere elementen */
 h2 {
 padding: 15px;
 }
@@ -45,17 +49,19 @@ padding: 15px;
 }
 /* ^ frame navbar ^ */
 
-
+/* hier wordt ervoor gezorgt dat als je op index gaat dat de navbar links een fade in effect krijgen */
 .fade-in {
     animation: fadeIn-Start 1s forwards;
 }
 
+/* div om de img zelf heen */
 .doelIMG-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* div om de img zelf heen */
 .doelIMG {
   max-width: 600px;
   max-height: 600px;
@@ -103,6 +109,7 @@ padding: 15px;
     cursor: default;
 }
 
+/* als je staart naar de home screen groeter dan na een tijdje remind de code dat je moet scrollen */
 .alert-to-scroll {
     color: white;
     font-family: Arial;
@@ -114,7 +121,6 @@ padding: 15px;
 }
 
 /* v sub page 2 v */
-
 .sub-page-2 {
     margin-top: 300px;
     color: black;
@@ -334,7 +340,6 @@ padding: 15px;
   }
 
 /* v missie page v */
-
 .title-Missie {
     margin-top: 100px;
 }
@@ -345,7 +350,6 @@ padding: 15px;
 /* ^ missie page ^ */
 
 /* v keyframes v */
-
 @keyframes fadeIn-Start {
     0% {
         opacity: 0;
@@ -418,7 +422,6 @@ padding: 15px;
         color: transparent;
     }
 }
-
 /* ^ keyframes ^ */
 
 /* <!-- Goed gekeurd door https://validator.w3.org/ --> */

@@ -1,19 +1,25 @@
+console.log('Js Loaded.');
 
-const profileDark = document.querySelector(".profile-img-dark");
-const profileLight = document.querySelector(".profile-img-light");
+//CONST
+const profileDark = document.querySelector(".profile-img-dark"); //donkere profiel pictogram
+const profileLight = document.querySelector(".profile-img-light"); //lichte profiel pictogram
+//CONST
 
+//EVENTLISTENER
 profileDark.addEventListener('click', function () {
-  window.location.href = "../profiel.html";
+  window.location.href = "../profiel.html"; //stuurt je naar profiel pagina als je klikt op de profile pictogram
 })
 
 profileLight.addEventListener('click', function () {
-  window.location.href = "../profiel.html";
+  window.location.href = "../profiel.html"; //stuurt je naar profiel pagina als je klikt op de profile pictogram
 })
+//EVENTLISTENER
 
-window.onscroll = function () { scrollFunction(), scrollFunction2() };
+//FUNCTION
+window.onscroll = function () { scrollFunction(), scrollFunction2() }; //voert 2 functies aan als je scrolt.
 
 function scrollFunction() {
-  if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
+  if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) { //als je onder 650 pixels bent dan verscijnt de navbar en de titel met de sub titels.
     document.getElementById("nav-bar").style.top = "0";
     document.getElementById("sub-title-PVA").style.top = "0px";
     document.getElementById("sub-title-PVA").style.animation = "fadeIn 1.5s forwards";
@@ -51,8 +57,8 @@ function scrollFunction() {
     document.getElementById("sub-title-content-animation-unit3b-href").style.animation = "fadeInHref 2s forwards";
     document.getElementById("sub-title-content-animation-unit3b-href").style.animationDelay = "0.5s";
 
-  } else {
-    document.getElementById("nav-bar").style.top = "-50px";
+  } else { //als je niet onder 650 pixels bent gaan scrollen gebeurt er niks en wordt de navbar en titels en texten verstopt.
+    document.getElementById("nav-bar").style.top = "-50px"; 
     document.getElementById("sub-title-PVA").style.animation = "-50px";
     document.getElementById("sub-title-PVA").style.animation = "fadeOut 2s forwards";
 
@@ -85,7 +91,7 @@ function scrollFunction() {
   }
 }
 
-function scrollFunction2() {
+function scrollFunction2() { //zelfde regels gelden hier maar dan voor onder 2500 pixels.
   if (document.body.scrollTop > 2500 || document.documentElement.scrollTop > 2500) {
 
 
@@ -176,10 +182,7 @@ function scrollFunction2() {
     document.getElementById("project-title-content-animation-unit6c-href").style.animation = "fadeInHref 2s forwards";
     document.getElementById("project-title-content-animation-unit6c-href").style.animationDelay = "1.5s";
 
-    console.log('2')
-
-  } else {
-
+  } else { 
     document.getElementById("sub-title-project").style.animation = "-50px";
     document.getElementById("sub-title-project").style.animation = "fadeOut 2s forwards";
 
@@ -256,6 +259,4 @@ function scrollFunction2() {
     document.getElementById("project-title-content-animation-unit6c-href").style.animation = "fadeOutHref 2s forwards";
   }
 }
-
-
-console.log('Js Loaded.');
+//FUNCTION
